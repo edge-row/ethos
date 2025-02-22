@@ -1,0 +1,3 @@
+# Ethos
+
+## Authored by SuperNog
