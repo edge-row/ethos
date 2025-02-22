@@ -81,5 +81,3 @@ This is a simple Discord bot that allows users to check in daily, tracks their c
 -   The bot stores user check-in data in a `checkins.json` file.
 -   The bot uses slash commands (application commands) for user interaction.
 -   The bot tracks the last check-in date and the yearly check-in count for each user.
-
-## File Structure
