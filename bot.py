@@ -74,10 +74,6 @@ async def start_bot():
                 f"{interaction.user.mention} You have a total of {user_checkins[user_id]['yearly_count']} check-ins this year."
             )
 
-    @bot.tree.command(name="ian_is_handsome", description="Ian is sooo handsome.")
-    async def ianishandsome(interaction: discord.Interaction):
-        await interaction.response.send_message(f"Holy shoot Ian is so handsome 🍆")
-
     @bot.tree.command(name="leaderboard", description="See the leaderboard list.")
     async def leaderboard(interaction: discord.Interaction):
         sorted_checkins = sorted(
